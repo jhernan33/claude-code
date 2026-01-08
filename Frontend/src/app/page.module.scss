@@ -1,5 +1,4 @@
-@import '../styles/vars.scss';
-
+@use '../styles/vars' as *;
 .page {
   min-height: 100vh;
   padding: 0;

@@ -1,4 +1,4 @@
-@import '../../styles/vars.scss';
+@use '../../styles/vars' as *;
 
 .container {
   max-width: 1200px;
@@ -106,6 +106,13 @@
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
+  align-items: center;
+}
+
+.ratingContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .duration,
@@ -117,6 +124,15 @@
   background: color('off-white');
   border-radius: 8px;
   border: 1px solid color('light-gray');
+}
+
+.ratingSection {
+  background: color('white');
+  border-radius: 18px;
+  padding: 2.5rem;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.05);
+  border: 2px solid color('light-gray');
+  margin: 3rem 0 4rem 0;
 }
 
 .classesSection {
