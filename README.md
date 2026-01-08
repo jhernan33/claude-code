@@ -29,6 +29,8 @@
 
 Platziflix es una plataforma educativa multi-plataforma estilo Netflix diseñada para la gestión y visualización de cursos online. El proyecto implementa una arquitectura completa con backend API REST, aplicación web responsive y aplicaciones móviles nativas para Android e iOS.
 
+Esto es un ejemplo para un PR.
+
 ### Características Principales:
 - 📚 Catálogo de cursos con diseño tipo Netflix
 - 🎥 Reproductor de video integrado
